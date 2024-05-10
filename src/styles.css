@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.merri-text {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merri-sub {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.merri-title {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.colorPage {
+    background: #F2F2F2
+}
+
+.color1 {
+    background: #78C8FA;
+}
+
+.color2 {
+    background: #64727A
+}
+
+.color3 {
+    background: #FAF878
+}
+
+.color4 {
+    background: #7A6464
+}
+
+.color5 {
+    background: #A5A486;
+}
+
