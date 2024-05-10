@@ -1,11 +1,18 @@
 import React from 'react';
 
 export class Modal extends React.Component {
+
+  // Se ejecuta cuando el componente es montado en el DOM
   componentDidMount() {
+
+    // Bloquea el desplazamiento de la página al abrir el modal
     document.body.style.overflow = 'hidden';
   }
 
+  // Se ejecuta justo antes de que el componente sea desmontado y destruido
   componentWillUnmount() {
+
+    // Restaura el desplazamiento de la página al cerrar el modal
     document.body.style.overflow = 'unset';
   }
 
